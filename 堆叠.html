@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            div{
+                position: absolute;
+                width:400px;
+                height: 200px;
+                padding: 5px 10px;
+                color:#ffffff;
+                text-align: right;
+                font-size: 25px;
+            }
+            .z1{
+                background-color: black;
+                z-index: 2;
+            }
+            .z2{
+                background-color: brown;
+                top: 60px;
+                left: 50px;
+                z-index: 1;
+            }
+            .z3{
+                background-color: blueviolet;
+                top: 120px;
+                left: 100px;
+                opacity: 0.5;
+                z-index: 3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="z1">
+            曾：1
+        </div>
+        <div class="z2">
+            曾：2
+        </div>
+        <div class="z3">
+            曾：3
+        </div>
+    </body>
+</html>
